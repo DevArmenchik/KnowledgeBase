@@ -567,7 +567,7 @@ This modifier defines a rule which applies only to addresses that match the case
 
 :::info Uyumluluk
 
-Rules with the `$match-case` are supported by AdGuard for iOS and Safari, **running SafariConverterLib v2.0.41 or later**.
+Rules with the `$match-case` are supported by AdGuard for iOS and Safari, **running SafariConverterLib v2.0.43 or later**.
 
 Diğer tüm ürünler zaten bu değiştiriciyi desteklemektedir.
 
@@ -3993,14 +3993,14 @@ Filtreleme günlüğü, çoğunlukla geliştiricileri filtrelemek için yardımc
 
 Hangi AdGuard ürününü kullandığınıza bağlı olarak, Filtreleme günlüğü farklı yerlerde olabilir.
 
-- In **AdGuard for Windows**, you can find it in the *Ad Blocker* tab or via the tray menu
-- In **AdGuard for Mac**, it is located in *Settings → Advanced → Filtering log*
-- In **AdGuard for Android**, you can find it under *Statistics → Recent activity*. *Recent activity* can also be accessed from the *Assistant*
-- In **AdGuard Browser Extension**, it is accessible from the *Miscellaneous* settings tab or by right-clicking the extension icon. Only Chromium- and Firefox-based browsers show applied **element hiding rules** (including CSS, ExtCSS) and **JS rules and scriptlets** in their Filtering logs
+- **Windows için AdGuard'da**, *Reklam Engelleyici* sekmesinde veya tepsi menüsünde bulabilirsiniz
+- **Mac için AdGuard'da**, *Ayarlar → Gelişmiş → Filtreleme günlüğü* öğesinde bulunur
+- **Android için AdGuard'da**, bunu *İstatistik → Son etkinlik* altında bulabilirsiniz. *Son etkinlik* ayrıca *Asistandan* da erişilebilir
+- **AdGuard Tarayıcı Uzantısında**, *Diğer* ayarlar sekmesinden veya uzantı simgesine sağ tıklayarak erişilebilir. Yalnızca Chromium ve Firefox tabanlı tarayıcılar, Filtreleme günlüklerinde uygulanan **öğe gizleme kuralları** (CSS, ExtCSS dahil) ve **JS kuralları ve komut dosyalarını** gösterir
 
 :::not
 
-In **AdGuard for iOS** and **AdGuard for Safari**, Filtering log does not exist because of the way content blockers are implemented in Safari. AdGuard web isteklerini görmez ve bu nedenle görüntüleyemez.
+**iOS için AdGuard** ve **Safari için AdGuard'da**, içerik engelleyicilerin Safari'de uygulanma şekli nedeniyle Filtreleme günlüğü mevcut değildir. AdGuard web isteklerini görmez ve bu nedenle görüntüleyemez.
 
 :::
 
